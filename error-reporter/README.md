@@ -21,7 +21,7 @@ A simple Go application that captures error reports and sends alert emails using
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/oghenevwede/error-reporter.git
+   git clone https://github.com/oghenevwede/Twilio-Articles.git
    cd error-reporter
    ```
 
