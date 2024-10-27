@@ -18,7 +18,6 @@ func main() {
 
 	// Access the environment variable
 	sendgridAPIKey := os.Getenv("SENDGRID_API_KEY")
-	log.Printf("SENDGRID_API_KEY length: %d", len(sendgridAPIKey)) // Debugging
 	if sendgridAPIKey == "" {
 		log.Fatal("SENDGRID_API_KEY is not set")
 	} else {
